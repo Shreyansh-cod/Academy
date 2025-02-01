@@ -1,0 +1,94 @@
+body{
+    background-image: url(netflix.png);
+    background-size: cover;
+}
+header{
+    .h1{
+        color: red;
+        font-size: 30px;
+        font-style:italic;
+        position: absolute;
+        margin-left: 5%;
+        top: 0%;
+    }
+    .select{
+        color: rgb(0, 0, 0);
+        position: absolute;
+        right: 20%;
+        height: 30px;
+    }
+    .option{
+        color: rgb(255, 255, 255);
+        background-color: rgb(88, 80, 80);
+        width:100px ;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        margin-top: 20px;
+    }
+    .button1{
+        width: 60px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        margin-top: 28px;
+        right: 9%;
+        border: none;
+        border-radius: 2px;
+        background-color: rgb(255, 0, 0);
+
+    }
+    .line{
+        color: aliceblue;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        font-size: 30px;
+      .ml{
+        color: aqua;
+        margin-bottom: 90px;
+      }
+      .hml{
+        position: absolute;
+        top: 79%;
+        left: 17%;
+        margin-top: 0%;
+      }
+      .kml{
+        position: absolute;
+        top: 82%;
+        left: 9%;
+      }
+
+    }
+    .email{
+        position: absolute;
+        top:550px;
+        left: 24%;
+        width: 700px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 9px;
+        border-right: none;
+    }
+    .ebutton{
+        position: absolute;
+        top: 550px;
+        width: 200px;
+        right: 17%;
+        height: 56px;
+        border-radius: 9px;
+        font-size: 30px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        border-left: none;
+    }
+    hr{
+        position: absolute;
+        top: 690px;
+        width: 1525px;
+    }
+        
+    
+}
