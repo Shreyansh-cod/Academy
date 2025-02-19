@@ -1,0 +1,421 @@
+body{
+    background-image: url(netflix.png);
+    background-size: cover;
+}
+header{
+    .h1{
+        color: red;
+        font-size: 30px;
+        position: absolute;
+        margin-left: 5%;
+        top: 0%;
+    }
+    .select{
+        color: rgb(0, 0, 0);
+        position: absolute;
+        right: 20%;
+        height: 30px;
+    }
+    .option{
+        color: rgb(255, 255, 255);
+        background-color: rgb(88, 80, 80);
+        width:100px ;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        margin-top: 20px;
+    }
+    .button1{
+        width: 60px;
+        height: 30px;
+        position: absolute;
+        top: 25px;
+        margin-top: 28px;
+        right: 9%;
+        border: none;
+        border-radius: 2px;
+        background-color: rgb(255, 0, 0);
+
+    }
+    .line{
+        color: aliceblue;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        font-size: 30px;
+      .ml{
+        color: aqua;
+        margin-bottom: 90px;
+      }
+      .hml{
+        position: absolute;
+        top: 79%;
+        left: 17%;
+        margin-top: 0%;
+      }
+      .kml{
+        position: absolute;
+        top: 82%;
+        left: 9%;
+      }
+
+    }
+    .email{
+        position: absolute;
+        top:550px;
+        left: 24%;
+        width: 700px;
+        height: 50px;
+        font-size: 30px;
+        border-radius: 9px;
+        border-right: none;
+        margin-right: 3px;
+    }
+    .ebutton{
+        position: absolute;
+        top: 550px;
+        width: 200px;
+        right: 16%;
+        height: 56px;
+        border-radius: 9px;
+        font-size: 30px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        border-left: none;
+        margin-left: 3px;
+    }
+    hr{
+        position: absolute;
+        top: 690px;
+        width: 1505px;
+        height: 9px;
+    }
+}
+.main{
+    background-color: black;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-style: double;
+    position: absolute;
+    top: 900px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    height: 2000px;
+    box-shadow: 30px;
+    .mh1{
+        color: aliceblue;
+        position: absolute;
+        font-size: 50px;
+        left: 10%;
+    }
+    .box1{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBQAzZgCcAJyLKGf0x3EjJHKr1h1oCRUQDfVspaHXampP-RjiOkIRlWBz7ViFOvUI1EdPSRcxoOPmB7paPLi52W4OmQZJ4NDMQ.webp?r=a92&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+       position: absolute;
+       top: 130px;
+       cursor: pointer;
+       left: 160px;
+    }
+    .box2{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp?r=06c&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+        position: absolute;
+        top: 130px;
+        cursor: pointer;
+        left: 390px;
+    }
+    .box3{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcJkAYihjBQ5SjWbwydLdZE8Dm1cJ0whRc21AEIS4V0VO8w65lEDAW5gwzTFTUuNqVTgBcgucwr6rMeRHra3xlru9n1CCtfOm1s.webp?r=e1d&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+        position: absolute;
+        top: 130px;
+        left: 620px;
+        cursor: pointer;
+    }
+    .box4{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABScSAnI47ovoETcYBhKCILXN91D3uCQTeh3aG24EF1iRpP7YNh86hK0eF8JkfKAzdNYZcjcvLy4UB_BpSQgg2AcvjjRMpP6A8C0.webp?r=4bd&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+        position: absolute;
+        top: 130px;
+        left: 850px;
+        cursor: pointer;
+    }
+    .box5{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRB3rewJT09RhxS4rHE_KfiiI3yrHEI3H2KcP4K5AxMBqUOZVM4QeaV9NjNs8CJ4AEjhH_BXKGaSWdOqQgWLNpHFKadmEfFjdf4.webp?r=de2&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+        position: absolute;
+        top: 130px;
+        left: 1080px;
+        cursor: pointer;
+    }
+    .box6{
+        background-image: url(https://occ-0-4110-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZJH5UgOhy6NyDoAfEigLLNPRc_cw2W7Gz87mbTfvRDHbr1fLHhrPpcKQdXnREMcUcZbnX8_ZK8mYS1CgW8B4NXHcTA-grl4BSpgtPn-jMwZpsh7Kk2XcJArjUbsdp0u5JLX.webp?r=e02&quot;);
+        background-size: cover;
+        border-radius: 18px;
+        display: flex;
+        width: 200px;
+        height:300px;
+        position: absolute;
+        top: 130px;
+        left: 1300px;
+        cursor: pointer;
+    }
+    .mh2{
+        color: aliceblue;
+        font-size: 40px;
+        position: absolute;
+        top: 500px;
+        left: 10%;
+    }
+    .d1{
+        .b1{
+            background-color: rgb(37, 19, 56);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 20px;
+            color: aliceblue;
+            border-color: aliceblue;
+            border-style: double;
+            background-size: cover;
+            border-radius: 18px;
+            width: 280px;
+            height:250px;
+            position: absolute;
+            top: 610px;
+            left: 153px;
+            cursor: pointer;
+            .p2{
+                font-size: 20px;
+                text-align: center;
+                color: rgb(129, 134, 134);
+                position: absolute;
+                left: 9px;
+                top: 80px;
+            }
+        }
+        .b2{
+            background-color: rgb(37, 19, 56);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 20px;
+            color: aliceblue;
+            border-color: aliceblue;
+            border-style: double;
+            background-size: cover;
+            border-radius: 18px;
+            width: 280px;
+            height:250px;
+            position: absolute;
+            top: 610px;
+            left: 450px;
+            cursor: pointer;
+            .p3{
+                font-size: 20px;
+                text-align: center;
+                color: rgb(129, 134, 134);
+                position: absolute;
+                left: 9px;
+                top: 80px;
+                right: 9px;
+            }
+        }
+        .b3{
+            background-color: rgb(37, 19, 56);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 20px;
+            color: aliceblue;
+            border-color: aliceblue;
+            border-style: double;
+            background-size: cover;
+            border-radius: 18px;
+            width: 280px;
+            height:250px;
+            position: absolute;
+            top: 610px;
+            left: 749px;
+            cursor: pointer;
+            .p4{
+                font-size: 20px;
+                text-align: center;
+                color: rgb(129, 134, 134);
+                position: absolute;
+                left: 9px;
+                top: 80px;
+                right: 9px;
+            }
+        }
+        .b4{
+            background-color: rgb(37, 19, 56);
+            text-align: center;
+            font-size: 25px;
+            padding-top: 20px;
+            color: aliceblue;
+            border-color: aliceblue;
+            border-style: double;
+            background-size: cover;
+            border-radius: 18px;
+            width: 280px;
+            height:250px;
+            position: absolute;
+            top: 610px;
+            left: 1048px;
+            cursor: pointer;
+            .p1{
+                font-size: 20px;
+                text-align: center;
+                color: rgb(129, 134, 134);
+                position: absolute;
+                left: 7px;
+                top: 80px;
+            }
+        }
+    }
+    .he{
+        top: 900px;
+        left: 10%;
+            color: white;
+            position: absolute;
+            font-size: 40px;
+        .bt1{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+        }
+        .bt1:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 0ms;
+            /* transition: ease-out; */
+        }
+        .bt2{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+           margin-top: 10px;
+        }
+        .bt2:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 0ms;
+            /* transition: ease-out; */
+        }
+        .bt3{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+           margin-top: 10px;
+        }
+        .bt3:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 0ms;
+            /* transition: ease-out; */
+        }
+        .bt4{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+           margin-top: 10px;
+        }
+        .bt4:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 0ms;
+            /* transition: ease-out; */
+        }
+        .bt5{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+           margin-top: 10px;
+        }
+        .bt5:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 0ms;
+            /* transition: ease-out; */
+        }
+        .bt6{
+            height: 80px;
+            width: 1200px;
+            text-align: left;
+           color: aliceblue;
+           background-color: rgb(44, 43, 42);
+           border: none;
+           border-radius: 5px;
+           font-size: 30px;
+           padding: 10px;
+           margin-top: 10px;
+        }
+        .bt6:hover{
+            background-color: rgb(111, 108, 108);
+            transition: all;
+            transition: ease ease-in;
+            transition-duration: 1s;
+            /* transition: ease-out; */
+        }
+    }
+    
+}
